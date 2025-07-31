@@ -9,6 +9,7 @@ import com.example.demo.strategy.MinuteBasedCost;
 public class PSFactory {
 	public ParkingLotManager getParkingLotManager(VehicleType vt) {
 		//soumi change
+		//again soumi change
 		if(VehicleType.TWO_WHEELER.equals(vt)) {
 			return new TwoWheelerManager();
 		} else {
